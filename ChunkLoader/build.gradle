@@ -5,13 +5,11 @@ plugins {
 // Change the values below this to your mods values
 // To change the project name, edit the settings.gradle file
 
-project.ext.modID = "krk.autotravel" // The unique id of your mod. Must be all lowercase and cannot use special characters.
-project.ext.modName = "AutoTravel" // The display name of your mod.
+project.ext.modID = "krk.chunkloader" // The unique id of your mod. Must be all lowercase and cannot use special characters.
+project.ext.modName = "ChunkLoader" // The display name of your mod.
 project.ext.modVersion = "1.0" // Your current builds version. Must follow the xx.xx... format.
 project.ext.gameVersion = "0.23.1" // The target game version.
-project.ext.modDescription = "If you're in a Minecart (Including The Holy Rail's Track Torpedo) or Boat and hit the world edge, you will automatically travel to the next island in that direction.\n" +
-        "\n" +
-        "Works underground as well. HOWEVER, if there's rocks on the other side, you WILL be spawned in them. You can mine your way out (Hold a torch to find yourself) but it's up to YOU to build the proper infrastructure. Continuing the rails on the other side. If you are unsure where to build, I recommend using a rail to travel to the next world, then place rails where you spawn in at." // Short description of what your mod is.
+project.ext.modDescription = "A device which keeps a level loaded.  Automation, initiate!" // Short description of what your mod is.
 project.ext.author = "KyleRokuKyu" // Your name
 
 /**

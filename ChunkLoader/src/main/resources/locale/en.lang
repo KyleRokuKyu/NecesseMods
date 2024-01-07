@@ -1,0 +1,8 @@
+[item]
+chunkloader=Chunk Loader
+
+[itemtooltip]
+chunkloadertip=Keeps a level loaded
+
+[object]
+chunkloader=Chunk Loader

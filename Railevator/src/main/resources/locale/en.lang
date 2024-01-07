@@ -1,0 +1,8 @@
+[item]
+railevator=Railevator
+
+[itemtooltip]
+railevatordowntip=Transfers Railcars between the surface and caves
+
+[object]
+railevatordown=Railevator
