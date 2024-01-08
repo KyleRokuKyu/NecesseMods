@@ -10,20 +10,6 @@ import necesse.inventory.recipe.Recipes;
 public class RecycleMod {
 
     public void init() {
-        /*
-        for (int i = 0; i < ItemRegistry.getItems().size(); i++) {
-            String item = ItemRegistry.getItems().get(i).type + "," +
-                    ItemRegistry.getItems().get(i).getID() + "," +
-                    ItemRegistry.getItems().get(i).getStringID() + ",";
-            if (ItemRegistry.getItems().get(i).getNewLocalization() != null) {
-                item += ItemRegistry.getItems().get(i).getNewLocalization().translate() + ",";
-            }
-            else {
-                item += "null,";
-            }
-            System.out.println(item);
-        }
-        */
         System.out.println("Loading Recycle Mod");
     }
 
@@ -577,5 +563,17 @@ public class RecycleMod {
                 }
         ));
         //endregion
+
+        //region Items
+        Recipes.registerModRecipe(new Recipe(
+                "ironbar",
+                3,
+                RecipeTechRegistry.FORGE,
+                new Ingredient[]{
+                        new Ingredient("ironanvil", 1)
+                }
+        ));
+        //endregion
+
     }
 }
